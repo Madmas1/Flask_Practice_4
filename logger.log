@@ -1,0 +1,166 @@
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:39:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:39:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Производится поиск
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:39:52] "GET /search?s=кот HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:39:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:39:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:39:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Производится поиск
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:42:00] "GET /search?s=еда HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:42:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:42:01] "[33mGET /index.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:42:14] "[33mGET /index.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:42:16] "[33mGET /index.html HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 108-678-519
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:42:28] "[33mGET /index.html HTTP/1.1[0m" 404 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:42:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:42:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Производится поиск
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:42:51] "GET /search?s=еда HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:42:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:42:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:42:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Производится поиск
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:42:58] "GET /search?s=кот HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:42:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:43:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:43:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 108-678-519
+INFO:root:Производится поиск
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:43:22] "GET /search?s=кот HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:43:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:43:23] "[33mGET /index.html HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 108-678-519
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:46:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:46:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Производится поиск
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:46:42] "[35m[1mGET /search?s=Кот HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:46:42] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:46:42] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:46:42] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:46:42] "[36mGET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:root:Производится поиск
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:46:48] "[35m[1mGET /search?s=Кот HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:46:48] "[36mGET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:46:48] "[36mGET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:46:48] "[36mGET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:root:Производится поиск
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:47:55] "GET /search?s=Кот HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:47:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:47:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:47:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Производится поиск
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:48:18] "GET /search?s=кот HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:48:18] "[33mGET /width=%22100%%22 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:48:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:48:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:48:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Производится поиск
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:50:30] "GET /search?s=кот HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:50:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:50:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:50:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'F:\\MyPython\\Flask_Practice_4\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 108-678-519
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 108-678-519
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:53:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:53:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Производится поиск
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:54:03] "GET /search?s=еда HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:54:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:54:09] "[33mGET /templates/post_form.html HTTP/1.1[0m" 404 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:54:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:54:26] "GET /static/style.css HTTP/1.1" 200 -
+INFO:root:Производится поиск
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:54:28] "GET /search?s=еда HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:54:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:55:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:55:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Производится поиск
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:55:05] "GET /search?s=еда HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:55:05] "[33mGET /width=%22100%%22 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 21:55:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 108-678-519
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 22:00:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 22:00:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Производится поиск
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 22:00:33] "GET /search?s=кот HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 22:00:33] "[33mGET /width=%22100%%22 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 22:00:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Производится поиск
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 22:01:02] "GET /search?s=кот HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 22:01:02] "[33mGET /post.pic HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 22:01:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 22:01:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 22:01:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Производится поиск
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 22:01:09] "GET /search?s=еда HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 22:01:09] "[33mGET /post.pic HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 22:01:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 22:01:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 22:01:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Производится поиск
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 22:01:47] "GET /search?s=еда HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 22:01:47] "[33mGET /post.pic HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 22:01:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'F:\\MyPython\\Flask_Practice_4\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 108-678-519
+INFO:root:Производится поиск
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 22:03:00] "GET /search?s=еда HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 22:03:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'F:\\MyPython\\Flask_Practice_4\\main\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 108-678-519
+INFO:root:Производится поиск
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 22:03:38] "GET /search?s=еда HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 22:03:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Производится поиск
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 22:03:39] "GET /search?s=еда HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 22:03:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Производится поиск
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 22:03:39] "GET /search?s=еда HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 22:03:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 22:04:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 22:04:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Производится поиск
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 22:04:11] "GET /search?s=еда HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 22:04:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 22:04:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/May/2022 22:04:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
