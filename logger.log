@@ -1,0 +1,75 @@
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-935-023
+INFO:werkzeug: * Detected change in 'F:\\MyPython\\Flask_Practice_4\\loader\\utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-935-023
+INFO:werkzeug: * Detected change in 'F:\\MyPython\\Flask_Practice_4\\loader\\utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-935-023
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-935-023
+INFO:werkzeug: * Detected change in 'F:\\MyPython\\Flask_Practice_4\\loader\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-935-023
+INFO:werkzeug: * Detected change in 'F:\\MyPython\\Flask_Practice_4\\loader\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-935-023
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [16/May/2022 22:41:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2022 22:41:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2022 22:41:06] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2022 22:41:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2022 22:41:14] "[35m[1mPOST /post HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2022 22:41:14] "[36mGET /post?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2022 22:41:14] "[36mGET /post?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2022 22:41:14] "[36mGET /post?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2022 22:41:14] "[36mGET /post?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 119-935-023
+INFO:werkzeug:127.0.0.1 - - [16/May/2022 22:42:00] "[35m[1mPOST /post HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2022 22:42:00] "[36mGET /post?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2022 22:42:00] "[36mGET /post?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2022 22:42:00] "[36mGET /post?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2022 22:42:00] "[36mGET /post?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'F:\\MyPython\\Flask_Practice_4\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+ERROR:app:Exception on /post [POST]
+Traceback (most recent call last):
+  File "F:\MyPython\Flask_Practice_4\venv\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\MyPython\Flask_Practice_4\venv\lib\site-packages\flask\app.py", line 1526, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "F:\MyPython\Flask_Practice_4\venv\lib\site-packages\flask\app.py", line 1545, in finalize_request
+    response = self.make_response(rv)
+  File "F:\MyPython\Flask_Practice_4\venv\lib\site-packages\flask\app.py", line 1734, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a WrongImgType.
+INFO:werkzeug:127.0.0.1 - - [16/May/2022 22:44:17] "[35m[1mPOST /post HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /post [POST]
+Traceback (most recent call last):
+  File "F:\MyPython\Flask_Practice_4\venv\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "F:\MyPython\Flask_Practice_4\venv\lib\site-packages\flask\app.py", line 1526, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "F:\MyPython\Flask_Practice_4\venv\lib\site-packages\flask\app.py", line 1545, in finalize_request
+    response = self.make_response(rv)
+  File "F:\MyPython\Flask_Practice_4\venv\lib\site-packages\flask\app.py", line 1734, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a WrongImgType.
+INFO:werkzeug:127.0.0.1 - - [16/May/2022 22:46:04] "[35m[1mPOST /post HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/May/2022 22:46:13] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/May/2022 22:46:15] "GET /post HTTP/1.1" 200 -
