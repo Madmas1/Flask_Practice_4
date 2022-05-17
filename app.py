@@ -1,38 +1,23 @@
-from flask import Flask, request, render_template, send_from_directory
-from main.views import main_blueprint
+#====== Основной скрипт приложения ======#
 
-POST_PATH = "posts.json"
-UPLOAD_FOLDER = "uploads/images"
+from flask import Flask, send_from_directory
+from main.views import main_blueprint
+from loader.views import loader_blueprint
 
 app = Flask(__name__)
 
+#====== Подключение блюпринтов проекта ======#
+
 app.register_blueprint(main_blueprint)
-
-# @app.route("/")
-# def page_index():
-#     pass
-#
-#
-# @app.route("/list")
-# def page_tag():
-#     pass
-#
-#
-# @app.route("/post", methods=["GET", "POST"])
-# def page_post_form():
-#     pass
-#
-#
-# @app.route("/post", methods=["POST"])
-# def page_post_upload():
-#     pass
-#
-#
-# @app.route("/uploads/<path:path>")
-# def static_dir(path):
-#     return send_from_directory("uploads", path)
+app.register_blueprint(loader_blueprint)
 
 
+# Роут на выгрузку файлов из каталога
+@app.route("/uploads/<path:path>")
+def static_dir(path):
+    return send_from_directory("uploads", path)
+
+# Запуск приложения
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
 
